@@ -150,5 +150,5 @@ class Matrix {
 try {
   module.exports = Matrix;
 } catch (e) {
-  console.log("QUnit does not need to add modules: " + e);
+  console.log("QUnit and Jest does not need to add modules: " + e);
 }
